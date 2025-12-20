@@ -11,8 +11,16 @@
 <!-- HEADER -->
 <header class="header">
   <div class="container header-flex">
-     <img src="logo.jpg" alt="Adekunle Gadget Store Logo" class="logo-img">
-    <nav class="nav">
+    <img src="logo.jpg" alt="Adekunle Gadget Store Logo" class="logo-img">
+
+    <!-- Hamburger -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav class="nav" id="nav">
       <a href="#categories">Categories</a>
       <a href="#products">Products</a>
       <a href="#faq">FAQ</a>
@@ -167,6 +175,17 @@
 <a href="https://wa.me/+2348123729316" class="whatsapp-float" target="_blank">
   💬 WhatsApp
 </a>
+
+<script>
+  // Hamburger menu toggle
+  const hamburger = document.getElementById('hamburger');
+  const nav = document.getElementById('nav');
+
+  hamburger.addEventListener('click', () => {
+    nav.classList.toggle('nav-active');
+    hamburger.classList.toggle('open');
+  });
+</script>
 
 </body>
 </html>
