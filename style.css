@@ -52,14 +52,14 @@ body {
 .header {
   background: var(--light);
   border-bottom: 1px solid #dbeafe;
-  position: relative;
+  position: fixed;
   z-index: 100;
 }
 
 .header-flex {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;  
   padding: 18px 0;
 }
 
@@ -85,6 +85,7 @@ body {
   flex-direction: column;
   cursor: pointer;
   gap: 5px;
+  margin-right: 10px;
 }
 
 .hamburger span {
