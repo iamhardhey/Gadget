@@ -52,7 +52,7 @@ body {
 .header {
   background: var(--light);
   border-bottom: 1px solid #dbeafe;
-  position: fixed;
+  position: relative;
   z-index: 100;
 }
 
