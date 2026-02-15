@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adekunle Gadget Store</title>
+  <title>iamhardhey TechHub - Premium Gadgets & Accessories</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,7 +11,13 @@
 <!-- HEADER -->
 <header class="header">
   <div class="container header-flex">
-    <img src="logo.jpg" alt="Adekunle Gadget Store Logo" class="logo-img">
+    <div class="logo-section">
+      <img src="logo.jpg" alt="iamhardhey TechHub Logo" class="logo-img">
+      <div class="brand-text">
+        <h2>iamhardhey TechHub</h2>
+        <p class="tagline">Premium Gadgets</p>
+      </div>
+    </div>
 
     <!-- Hamburger -->
     <div class="hamburger" id="hamburger">
@@ -21,8 +27,9 @@
     </div>
 
     <nav class="nav" id="nav">
-      <a href="#categories">Categories</a>
-      <a href="#products">Products</a>
+      <a href="#categories">Shop</a>
+      <a href="#products">Best Deals</a>
+      <a href="#why-us">Why Us</a>
       <a href="#faq">FAQ</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -32,18 +39,60 @@
 <!-- HERO -->
 <section class="hero">
   <div class="container hero-content">
-    <h1>Your Trusted Gadget Store</h1>
-    <p>Phones, power banks, chargers, wireless earphones, iWatch & accessories</p>
-    <a href="#products" class="primary-btn">Shop Now</a>
+    <h1>Premium Tech at Best Prices</h1>
+    <p>Authentic iPhones, Power Banks, Chargers & Top Gadget Accessories</p>
+    <a href="#products" class="primary-btn">Explore Collection</a>
   </div>
 </section>
 
 <!-- TRUST BAR -->
 <section class="trust">
   <div class="container trust-flex">
-    <div>✔ Original Gadgets</div>
-    <div>🚚 Nationwide Delivery</div>
-    <div>💬 WhatsApp Support</div>
+    <div class="trust-item">
+      <span class="trust-icon">✓</span>
+      <div>100% Authentic Products</div>
+    </div>
+    <div class="trust-item">
+      <span class="trust-icon">🚚</span>
+      <div>Fast & Secure Delivery</div>
+    </div>
+    <div class="trust-item">
+      <span class="trust-icon">🛡️</span>
+      <div>Guaranteed Warranty</div>
+    </div>
+    <div class="trust-item">
+      <span class="trust-icon">💬</span>
+      <div>24/7 Customer Support</div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section id="why-us" class="section features-section">
+  <div class="container">
+    <h2>Why Choose TechHub Pro?</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🔐</div>
+        <h3>Verified Authentic</h3>
+        <p>Every gadget is tested and verified for authenticity. Direct from authorized distributors.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">⚡</div>
+        <h3>Fastest Delivery</h3>
+        <p>Same-day delivery in Lagos, nationwide shipping within 3-5 working days.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💳</div>
+        <h3>Secure Payment</h3>
+        <p>Multiple payment options with guaranteed transaction security and buyer protection.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">❤️</div>
+        <h3>Best Prices</h3>
+        <p>Competitive pricing with regular discounts and special offers on bulk purchases.</p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -52,12 +101,36 @@
   <div class="container">
     <h2>Shop by Category</h2>
     <div class="category-grid">
-      <div class="category-card">📱 iPhones</div>
-      <div class="category-card">🔋 Power Banks</div>
-      <div class="category-card">🔌 Chargers</div>
-      <div class="category-card">🎧 Wireless EarPods</div>
-      <div class="category-card">⌚ iWatch</div>
-      <div class="category-card">🎧 Earpieces</div>
+      <div class="category-card">
+        <div class="cat-icon">📱</div>
+        <div class="cat-name">Smartphones</div>
+        <div class="cat-count">15+ Models</div>
+      </div>
+      <div class="category-card">
+        <div class="cat-icon">🔋</div>
+        <div class="cat-name">Power Banks</div>
+        <div class="cat-count">8+ Options</div>
+      </div>
+      <div class="category-card">
+        <div class="cat-icon">🔌</div>
+        <div class="cat-name">Chargers</div>
+        <div class="cat-count">Premium Fast Charging</div>
+      </div>
+      <div class="category-card">
+        <div class="cat-icon">🎧</div>
+        <div class="cat-name">Earphones</div>
+        <div class="cat-count">Wireless & Wired</div>
+      </div>
+      <div class="category-card">
+        <div class="cat-icon">⌚</div>
+        <div class="cat-name">Smart Watches</div>
+        <div class="cat-count">Latest Tech</div>
+      </div>
+      <div class="category-card">
+        <div class="cat-icon">🎁</div>
+        <div class="cat-name">Accessories</div>
+        <div class="cat-count">Complete Range</div>
+      </div>
     </div>
   </div>
 </section>
@@ -65,24 +138,31 @@
 <!-- PRODUCTS -->
 <section id="products" class="section bg-light">
   <div class="container">
-    <h2>Featured Products</h2>
+    <div class="section-header">
+      <h2>Featured Collection</h2>
+      <p>Hand-picked products with the best specs and prices</p>
+    </div>
     <div class="product-grid">
       <div class="product-card">
+        <div class="product-badge">New</div>
         <img src="phone14.jpg" alt="iPhone 14">
         <div class="product-info">
           <h3>iPhone 14</h3>
-          <p>128GB • Factory Unlocked</p>
+          <p class="product-specs">128GB • Factory Unlocked • Latest Model</p>
+          <div class="product-rating">⭐⭐⭐⭐⭐ (48 reviews)</div>
           <span class="price">₦650,000</span>
           <a href="https://wa.me/+2348123729316" class="buy-btn">Buy on WhatsApp</a>
         </div>
       </div>
 
       <div class="product-card">
+        <div class="product-badge popular">Popular</div>
         <img src="phone13.jpg" alt="iPhone 13">
         <div class="product-info">
           <h3>iPhone 13</h3>
-          <p>128GB • Factory Unlocked</p>
-          <span class="price">₦580,000</span>
+          <p class="product-specs">128GB • Certified Refurbished • Great Deal</p>
+          <div class="product-rating">⭐⭐⭐⭐⭐ (32 reviews)</div>
+          <span class="price">₦480,000</span>
           <a href="https://wa.me/+2348123729316" class="buy-btn">Buy on WhatsApp</a>
         </div>
       </div>
@@ -90,9 +170,10 @@
       <div class="product-card">
         <img src="earpods.jpg" alt="Wireless EarPods">
         <div class="product-info">
-          <h3>Wireless EarPods</h3>
-          <p>Bluetooth • Noise Reduction</p>
-          <span class="price">₦25,000</span>
+          <h3>Premium Wireless EarPods</h3>
+          <p class="product-specs">Bluetooth 5.0 • Active Noise Cancellation</p>
+          <div class="product-rating">⭐⭐⭐⭐⭐ (156 reviews)</div>
+          <span class="price">₦28,500</span>
           <a href="https://wa.me/+2348123729316" class="buy-btn">Buy on WhatsApp</a>
         </div>
       </div>
@@ -100,19 +181,22 @@
       <div class="product-card">
         <img src="iwatch.jpg" alt="iWatch Series 9">
         <div class="product-info">
-          <h3>iWatch Series 9</h3>
-          <p>Latest Model • Fitness Tracking</p>
-          <span class="price">₦300,000</span>
+          <h3>Apple Watch Series 9</h3>
+          <p class="product-specs">45mm • GPS • Fitness Tracking • Water Resistant</p>
+          <div class="product-rating">⭐⭐⭐⭐⭐ (89 reviews)</div>
+          <span class="price">₦285,000</span>
           <a href="https://wa.me/+2348123729316" class="buy-btn">Buy on WhatsApp</a>
         </div>
       </div>
 
       <div class="product-card">
+        <div class="product-badge sale">Sale</div>
         <img src="powerbank.jpg" alt="Oraimo Power Bank">
         <div class="product-info">
-          <h3>Oraimo Power Bank</h3>
-          <p>50,000mAh • Fast Charging</p>
-          <span class="price">₦18,000</span>
+          <h3>Oraimo Ultra Power Bank</h3>
+          <p class="product-specs">50,000mAh • 65W Fast Charging • LED Display</p>
+          <div class="product-rating">⭐⭐⭐⭐⭐ (203 reviews)</div>
+          <span class="price">₦16,800</span>
           <a href="https://wa.me/+2348123729316" class="buy-btn">Buy on WhatsApp</a>
         </div>
       </div>
@@ -120,9 +204,10 @@
       <div class="product-card">
         <img src="charger.jpg" alt="Fast Charger">
         <div class="product-info">
-          <h3>Fast Charger</h3>
-          <p>Type-C • 25W</p>
-          <span class="price">₦10,500</span>
+          <h3>USB-C Fast Charger</h3>
+          <p class="product-specs">25W • PD Support • Multi-device Compatible</p>
+          <div class="product-rating">⭐⭐⭐⭐⭐ (127 reviews)</div>
+          <span class="price">₦9,500</span>
           <a href="https://wa.me/+2348123729316" class="buy-btn">Buy on WhatsApp</a>
         </div>
       </div>
@@ -133,26 +218,31 @@
 <!-- FAQ -->
 <section id="faq" class="section faq-section">
   <div class="container">
-    <h2>Frequently Asked Questions</h2>
+    <h2>Your Questions, Answered</h2>
 
     <details class="faq-item">
-      <summary>Are your gadgets original?</summary>
-      <p>Yes, all our gadgets are 100% original and tested before delivery.</p>
+      <summary>🔒 Are all your gadgets 100% original?</summary>
+      <p>Yes! Every product is sourced directly from authorized distributors and tested before shipping. We guarantee authenticity or your money back.</p>
     </details>
 
     <details class="faq-item">
-      <summary>Do you deliver nationwide?</summary>
-      <p>Yes, we deliver to all states in Nigeria.</p>
+      <summary>🚚 How long does delivery take?</summary>
+      <p>Orders within Lagos: 1 day delivery. Other states: 3-5 working days. We use reliable logistics partners for safe delivery.</p>
     </details>
 
     <details class="faq-item">
-      <summary>How long does delivery take?</summary>
-      <p>1–3 working days within Lagos, 3–5 working days outside Lagos.</p>
+      <summary>📱 Do you offer warranty on products?</summary>
+      <p>Yes! Most products come with manufacturer warranty. We also provide store warranty on selected items for added peace of mind.</p>
     </details>
 
     <details class="faq-item">
-      <summary>Do you offer warranty?</summary>
-      <p>Yes, most products come with store warranty.</p>
+      <summary>💳 What payment methods do you accept?</summary>
+      <p>We accept bank transfers, card payments, and WhatsApp payments. All transactions are secure and protected.</p>
+    </details>
+
+    <details class="faq-item">
+      <summary>🔄 What's your return/refund policy?</summary>
+      <p>30-day money-back guarantee on all products. If you're not satisfied, we'll refund your money fully.</p>
     </details>
 
   </div>
@@ -161,13 +251,34 @@
 <!-- FOOTER -->
 <footer id="contact" class="footer">
   <div class="container">
-    <p>📞 Phone : +2348123729316</p>
-    <p>© 2025 Adekunle Gadget Store. All rights reserved.</p>
-    <p class="connect">
-      <a href="https://twitter.com/olaoyesulaimon" target="_blank">Twitter</a> |
-      <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a> |
-      <a href="https://instagram.com/iamhardhey_" target="_blank">Instagram</a>
-    </p>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>iamhardhey TechHub</h4>
+        <p>Your trusted partner for premium gadgets and tech accessories.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="#categories">Shop</a>
+        <a href="#products">Products</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Info</h4>
+        <p>📞 +2348123729316</p>
+        <p>💬 WhatsApp Support 24/7</p>
+      </div>
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="https://twitter.com" target="_blank" title="Twitter">𝕏</a>
+          <a href="https://linkedin.com" target="_blank" title="LinkedIn">in</a>
+          <a href="https://instagram.com/iamhardhey_" target="_blank" title="Instagram">📷</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 iamhardhey TechHub. All rights reserved. | Premium Gadgets Delivered Fast</p>
+    </div>
   </div>
 </footer>
 
